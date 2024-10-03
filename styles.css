@@ -83,4 +83,20 @@ img.figure-img{
     margin-bottom: 5px; /* Space between the inserted text and the original content */
 }
 
+table {
+  border-collapse: collapse; /* Ensures that borders do not have double spacing */
+  width: 100%;
+}
 
+table, th, td {
+  border: 2px solid var(--brdr_col); /* Applies the border color to the whole table */
+  padding: var(--pad);
+}
+
+td, th {
+  border-top: 2px solid var(--brdr_col); /* Adds a top border to each cell */
+}
+
+th {
+  background-color: #f2f2f2; /* Optional: distinguish header cells */
+}
